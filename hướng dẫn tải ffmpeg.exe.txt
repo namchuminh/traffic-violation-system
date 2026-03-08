@@ -1,0 +1,5 @@
+tải ffmpeg.exe về (https://www.gyan.dev/ffmpeg/builds/) 
+
+vào thư mục bin lấy : ffmpeg.exe
+
+đặt vào dự án: be/ffmpeg/bin/ffmpeg.exe

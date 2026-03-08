@@ -1,0 +1,11 @@
+# Các thư mục phụ thuộc và file thực thi
+be/ffmpeg/
+
+# Thư mục build/output
+be/out/
+
+# Các file tạm thời
+be/tmp/
+
+# Các file upload của người dùng (thường không nên đưa lên repo)
+be/uploads/

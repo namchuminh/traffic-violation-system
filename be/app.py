@@ -1420,8 +1420,8 @@ def worker(job_id: str):
         duration = fmt_duration(total / fps) if total > 0 else "—"
         processing_time_ms = int(processed_sec * 1000)
 
-        final_a = int(countA)
-        final_b = int(countB)
+        final_a = 0
+        final_b = 0
 
         # UPDATE processed_videos cuối job (đã insert ngay từ đầu)
         try:
@@ -1431,8 +1431,7 @@ def worker(job_id: str):
                     processed_video_url=url,
                     count_a=final_a,  # Truyền biến countA đã tính được
                     count_b=final_b,  # Truyền biến countB đã tính được
-                    processing_time_ms=processing_time_ms,
-                    processed_by=processed_by
+                    processing_time_ms=processing_time_ms
                 )
         except Exception as db_e:
             with lock:

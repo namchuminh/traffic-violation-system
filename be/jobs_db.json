@@ -1,0 +1,28 @@
+[
+  {
+    "job_id": "a222f9e1451c48b68bb6978ef9089cd6",
+    "filename": "video cho yêu cầu 1 (online-video-cutter.com).mp4",
+    "created_at": 1772978413,
+    "duration": "00:05",
+    "processed_sec": 45,
+    "detect_type": "count",
+    "url": "http://127.0.0.1:5000/out/a222f9e1451c48b68bb6978ef9089cd6.mp4",
+    "processed_video_id": 7,
+    "violations_saved": 0,
+    "count_zone_a": 11,
+    "count_zone_b": 3,
+    "inA": 0,
+    "inB": 0,
+    "enterA": 0,
+    "enterB": 0,
+    "count_A2B": 0,
+    "count_B2A": 0,
+    "max_speed": 5,
+    "over_speed": 0,
+    "ppm": null,
+    "red_light_state": "unknown",
+    "red_light_violations": 0,
+    "red_light_violations_red": 0,
+    "yellow_light_violations": 0
+  }
+]
